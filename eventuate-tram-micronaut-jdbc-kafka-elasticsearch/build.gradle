@@ -1,0 +1,8 @@
+apply plugin: PublicModulePlugin
+
+dependencies {
+    compile "io.eventuate.messaging.kafka.elasticsearch:eventuate-messaging-kafka-offset-store-elasticsearch-micronaut-consumer:$eventuateMessagingKafkaVersion"
+    compile "io.eventuate.tram.core:eventuate-tram-micronaut-jdbc-kafka:$eventuateTramCoreVersion"
+
+    compile project(":eventuate-tram-micronaut-consumer-elasticsearch")
+}

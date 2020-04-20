@@ -1,0 +1,6 @@
+include 'eventuate-tram-consumer-elasticsearch'
+include 'eventuate-tram-spring-consumer-elasticsearch'
+include 'eventuate-tram-spring-jdbc-kafka-elasticsearch'
+include 'eventuate-tram-micronaut-jdbc-kafka-elasticsearch'
+include 'eventuate-tram-micronaut-consumer-elasticsearch'
+
