@@ -1,6 +1,5 @@
 buildscript {
     repositories {
-        mavenLocal()
         jcenter()
         //maven { url deployUrl }
         maven { url "https://dl.bintray.com/eventuateio-oss/eventuate-maven-release" }
@@ -41,7 +40,6 @@ allprojects {
 
 
     repositories {
-        mavenLocal()
         mavenCentral()
         jcenter()
         maven { url "https://repo.spring.io/milestone" }
