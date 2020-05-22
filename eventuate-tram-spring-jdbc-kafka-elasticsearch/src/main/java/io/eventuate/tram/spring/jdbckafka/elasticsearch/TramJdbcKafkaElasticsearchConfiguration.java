@@ -11,10 +11,10 @@ import io.eventuate.tram.spring.messaging.producer.jdbc.TramMessageProducerJdbcC
 
 @Configuration
 @Import({
+    ElasticsearchKafkaConsumerFactorySpringConfiguration.class,
     TramConsumerElasticsearchAutoConfiguration.class,
     TramMessageProducerJdbcConfiguration.class,
     EventuateTramKafkaMessageConsumerConfiguration.class,
-    ElasticsearchKafkaConsumerFactorySpringConfiguration.class,
     ElasticsearchConsumerSpringConfigurationPropertiesConfiguration.class,
     EventuateKafkaConsumerElasticsearchSpringConfigurationPropertiesConfiguration.class,
 })
