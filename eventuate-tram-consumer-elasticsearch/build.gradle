@@ -1,0 +1,9 @@
+apply plugin: PublicModulePlugin
+
+dependencies {
+    compile "io.eventuate.tram.core:eventuate-tram-consumer-common:$eventuateTramCoreVersion"
+
+    compile "org.elasticsearch.client:elasticsearch-rest-high-level-client:7.6.2"
+    compile "com.fasterxml.jackson.core:jackson-databind:2.2.3"
+
+}
